@@ -1,0 +1,48 @@
+# Banco-De-Dados-PHP
+Operação CRUD (Create, Read, Update, Delete) que simula uma empresa de energia, salva os dados no Banco de dados MySQL.
+
+COMO FAZER:
+
+1º Passo:
+Instalar o Banco de dados em sua máquina, (https://www.apachefriends.org/download.html), siga o link para instalar o XAMPP.
+
+2º Passo:
+Após instalado inicie o XAMPP, dentro do aplicativo ligue o Apache e o MySQL. Após ligar ambos clique na aba Admin no mySQL, isso deve levá-lo ao Banco de dados.
+
+3º Passo:
+Dentro do Banco de dados crie um novo banco chamado "consumo_energia", após criar o Banco crie suas colunas, o Banco deve possuir 12 colunas e seu nome deve ser "cliente".
+
+4º Passo:
+Após criar as colunas, dê os nomes em ordem e com suas especificações como está abaixo:
+
+NOME                 |        TIPO          
+id                   |        int  PRIMARY KEY (A id deve ser chave primária e se auto incrementar)
+nome                 |        varchar(30)
+sexo                 |        varchar(10)
+endereco             |        varchar(30)
+cep                  |        varchar(10)
+bairro               |        varchar(12)
+cpf                  |        varchar(20)
+nascimento           |        varchar(12)
+data_vencimento      |        varchar(12)
+unidade_consumidora  |        varchar(20)
+kwh                  |        varchar(15)
+valor_total          |        varchar(20)
+
+5º Passo:
+Salve o Banco de dados, agora baixe em sua máquina os arquivos, Alterar.php, Conexao.php, Index.php, Inserir.php, e salve-os no seguinte caminho:
+-> C:\xampp\htdocs\Consumo Energia 
+
+6º Passo:
+Após isso, abra seu XAMPP e ligue o MySQL e o Apache, após ligar os dois vá até seu navegador e digite:
+-> localhost/Consumo Energia
+
+Pronto! Após esses passos você vai ser capaz de realizar o CRUD e salvá-los em um Banco de dados 😁
+
+
+
+
+
+
+
+
